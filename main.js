@@ -41,7 +41,7 @@
 	function log(string, type) {
 		var style = "";
 		if (type === "highlight") {
-			style = "color:#f00, font-size: 18px;"
+			style = "color:#f00; font-size: 18px;"
 		}
 		console.log("%c" + string, style);
 	}
