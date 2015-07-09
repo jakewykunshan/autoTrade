@@ -43,7 +43,7 @@
 		if (type === "highlight") {
 			style = "color:#f00, font-size: 18px;"
 		}
-		log("%c" + string, style);
+		console.log("%c" + string, style);
 	}
 	// buy or sell.
 	function trade(sec, price, unitMoney, tradeType) {
