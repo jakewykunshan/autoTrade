@@ -80,8 +80,8 @@
 	tradeStratagy.swing = stratagy;
 })(window)
 // 起始是开盘价
-var lastPrice;
 function scan(sid, unitMoney) {
+	var lastPrice;
 	tradeTool.getPrice(sid, function (price) {
 		lastPrice = price;
 		setInterval(function () {
@@ -108,3 +108,4 @@ function scan(sid, unitMoney) {
 
 // 启动入口
 //scan("sh601328", 5000);
+scan("sz002008", 5000);
